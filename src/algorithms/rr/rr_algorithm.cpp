@@ -5,7 +5,7 @@
 #include <sstream>
 
 /*
-    Here is where you should define the logic for the round robin algorithm.
+    The round-robin (RR) scheduling algorithm -- utilizes a preemptive queue-based mechanism for slicing and queueing threads.
 */
 
 RRScheduler::RRScheduler(int slice) {    
