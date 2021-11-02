@@ -1,3 +1,11 @@
+TODO:
+   - [ ] Change my jank way of stat tracking to use an iterator over the :code:`std::map<int,std::shared_ptr<Process>>` processes
+   - [ ] Implement the following:
+      - [ ] SPN (shortest process next)
+      - [ ] Priority (priority queue based on thread priority :code:`[S<-I<-N<-B]`)
+      - [ ] MLQS (multilevel queue scheduling)
+      - [ ] CFS ("Completely Fair Scheduling", i.e. Linux)
+
 CPU Scheduling Simulator
 ==============================================
 
