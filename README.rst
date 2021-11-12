@@ -1,9 +1,15 @@
+0 - Notes regarding use of this repository
+~~~~~~~~~~~~~~~~~~~
+Don't blindly rip the code for this if you are taking a course in OS development and don't understand what it is doing! Not to mention, it may trigger some plagiarism flags ;)
+
+==============================================
+
 TODO:
    - :code:`[ ]` Change my jank way of stat tracking to use an iterator over the :code:`std::map<int,std::shared_ptr<Process>>` processes
    - :code:`[ ]` Implement the following
       - :code:`[ ]` SPN (shortest process next)
       - :code:`[ ]` Priority (priority queue based on thread priority :code:`[S<-I<-N<-B]`)
-      - :code:`[ ]` MLQS (multilevel queue scheduling)
+      - :code:`[ ]` MLFQ (multilevel feedback queues)
       - :code:`[ ]` CFS ("Completely Fair Scheduling", i.e. Linux)
 
 CPU Scheduling Simulator
@@ -253,7 +259,3 @@ This continues until the end of the simulation:
       Transitioned from RUNNING to EXIT
 
    SIMULATION COMPLETED !
-
-5.4 Notes regarding use of this repository
-~~~~~~~~~~~~~~~~~~~
-Don't blindly rip the code for this if you are taking a course in OS development and don't understand what it is doing! Not to mention, it may trigger some plagiarism flags ;)
